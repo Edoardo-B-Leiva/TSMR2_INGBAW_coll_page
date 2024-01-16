@@ -1,7 +1,80 @@
-*{
+body{
   padding: 0;
   margin: 0;
+  background-image: url(http://www.slackware.com/grfx/shared/background.jpg);
+  color: #fafafa;
 }
-body{
-  background-color: #282828ff;
+nav{
+  background-color: #aa1414;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.nv-cnt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.nv-btn{
+  width: 100%;
+  text-align: center;
+}
+.nv-btn:hover{
+  background-color: #990404;
+}
+
+#nv-btn-cnt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 0.1rem solid #000;
+}
+#nv-img-cnt{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  color: #fafafa
+}
+nav marquee{
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+}
+.footer{
+  bottom: 0;
+  width: 100%;
+  
+  padding: 5% 0 3% 0;
+  background-color: #990404;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-cnt{
+  display: flex;
+  flex-direction: row;
+}
+#content-body{
+  height: 100%;
+  color: #1c1c1c;
+  margin: 0 5% 5% 5%;
+  overflow:hidden;
+}
+#content-body h1{
+  margin-left:5%;
+}
+.footer-cnt h1{
+  font-size: larger;
+}
+
+.nv-cnt #nv-img-cnt div{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
 }

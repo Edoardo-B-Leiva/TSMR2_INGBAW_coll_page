@@ -110,22 +110,16 @@ nav marquee{
   display: none;
 
 }
-/*
-#nv-btn-list:hover{
-  display: block;
-  flex-direction: column;
-  float:none;
-  background-color: #aa1414;
-}
-*/
+
 div a:hover + #nv-btn-list,
-#nv-btn-list:hover {
+#nv-btn-list:hover, #nv-btn-list *:hover {
   display: flex;
   flex-direction: column;
   width: auto;
-  padding: auto;
+	justify-items:center;
+	justify-content: center;
+	padding: 0 5rem;
   position:absolute;
-  border: 3px solid black;
-  background-color: #990404;
+  background-color: #aa1414;
   float: none;
 }

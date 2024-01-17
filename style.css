@@ -107,20 +107,25 @@ nav marquee{
 
 
 #nv-btn-list{
-  // display: none;
-  position: absolute;
-  overflow: visible;
+  display: none;
 
 }
-
+/*
 #nv-btn-list:hover{
   display: block;
   flex-direction: column;
-  height: auto;
-  width: inherit;
+  float:none;
   background-color: #aa1414;
 }
-
-#nv-btn-list a{
-  display: block;
+*/
+div a:hover + #nv-btn-list,
+#nv-btn-list:hover {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding: auto;
+  position:absolute;
+  border: 3px solid black;
+  background-color: #990404;
+  float: none;
 }

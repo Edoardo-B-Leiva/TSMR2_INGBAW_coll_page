@@ -4,6 +4,7 @@ body{
   background-image: url(http://www.slackware.com/grfx/shared/background.jpg);
   color: #fafafa;
 }
+nav *{overflow: hidden;}
 nav{
   background-color: #aa1414;
   height: auto;
@@ -16,6 +17,7 @@ nav{
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  height: 10%;
 }
 .nv-btn{
   width: 100%;
@@ -34,8 +36,20 @@ nav{
 #nv-img-cnt{
   display: flex;
   width: 100%;
+  align-content: center;
+  align-items: center;
   justify-content: space-between;
 }
+
+#nv-img-cnt div{
+  align-items: center;
+  align-content: center;
+}
+
+#nv-img-cnt div img{
+  height: 8rem;
+}
+
 a{
   text-decoration: none;
   color: #fafafa
@@ -47,8 +61,7 @@ nav marquee{
 }
 .footer{
   bottom: 0;
-  width: 100%;
-  
+  width: 100%;  
   padding: 5% 0 3% 0;
   background-color: #990404;
   display: flex;
@@ -59,6 +72,7 @@ nav marquee{
 .footer-cnt{
   display: flex;
   flex-direction: row;
+  margin: 1rem;
 }
 #content-body{
   height: 100%;
@@ -76,5 +90,36 @@ nav marquee{
 .nv-cnt #nv-img-cnt div{
   display: flex;
   flex-direction: row;
-  margin-left: 5%;
+  margin: 0% 2%;
+}
+
+#fade{
+  float: right;
+  margin: 0;
+  padding: 0;
+  height: 20rem;
+  width: auto;
+  margin-bottom: -12rem;
+  margin-top: -1rem;
+  overflow: hidden;
+  mask-image: linear-gradient(to left, rgba(0,0,0,1.0) 0%, transparent 100%);
+}
+
+
+#nv-btn-list{
+  display: none;
+
+}
+
+div a:hover + #nv-btn-list,
+#nv-btn-list:hover, #nv-btn-list *:hover {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+	justify-items:center;
+	justify-content: center;
+	padding: 0 5rem;
+  position:absolute;
+  background-color: #aa1414;
+  float: none;
 }

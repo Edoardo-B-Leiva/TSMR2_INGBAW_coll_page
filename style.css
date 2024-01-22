@@ -3,6 +3,7 @@ body{
   margin: 0;
   background-image: url(http://www.slackware.com/grfx/shared/background.jpg);
   color: #fafafa;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav *{overflow: hidden;}
 nav{

@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-image: url(http://www.slackware.com/grfx/shared/background.jpg);
     color: #fafafa;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   nav *{overflow: hidden;}
   nav{
@@ -58,18 +59,48 @@ body{
     text-decoration: none;
     color: #fafafa
   }
-  .subjects {
+  .content-body {
     display: flex;
     justify-content: center;
-    border: 3px solid black;
-    margin-top: 20px;
-    width: 50%;
-    border-radius: 20px;
-    padding: 20px;
-    background-color: #990404;
-    color: white;
+    align-items: center;
   }
   .subjects h1 {
     text-decoration: underline;
     color: wheat;
   }
+  #subject_titulo {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: black;
+    width: 50%;
+    background-color: #aa1414;
+  }
+  /*#content-body-subjects-1tsmr {
+    display: flex;
+    float: left;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 250px;
+    width: 40%;
+    margin-left: 25px;
+  }
+  #subjects-1tsmr {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: black;
+  }
+  #content-body-subjects-2tsmr {
+    display: flex;
+    float: right;
+    margin-top: 10px;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 250px;
+    width: 40%;
+    margin-right: 25px;
+  }*/
+  

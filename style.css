@@ -1,24 +1,29 @@
 body{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: auto vmax vmax;
+  width: 100%;
+  height: 100vh;
   padding: 0;
   margin: 0;
   background-image: url(http://www.slackware.com/grfx/shared/background.jpg);
   color: #fafafa;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-nav *{overflow: hidden;}
+
 nav{
+  grid-column: 1/4;
+  grid-row: 1/2;
   background-color: #aa1414;
-  height: auto;
-  width: 100%;
   display: flex;
   flex-direction: column;
 }
+nav *{overflow: hidden;}
 .nv-cnt{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
-  height: 10%;
+  height: 75%;
 }
 .nv-btn{
   display:block;
@@ -41,17 +46,18 @@ nav{
 #nv-img-cnt{
   display: flex;
   width: 100%;
-  align-content: center;
-  align-items: center;
+  padding-left: 2rem;
   justify-content: space-between;
 }
 
 #nv-img-cnt div{
+  display: block;
   align-items: center;
   align-content: center;
 }
 
 #nv-img-cnt div img{
+  display: block;
   height: 8rem;
 }
 
@@ -59,15 +65,16 @@ a{
   text-decoration: none;
   color: #fafafa
 }
-nav marquee{
+nav a marquee{
+  display: block;
   background-color: #000;
   color: #fff;
   font-weight: bold;
+  bottom: 0;
 }
 .footer{
-  bottom: 0;
-  width: 100%;  
-  padding: 5% 0 3% 0;
+  grid-column: 1/4;
+  grid-row: 3; 
   background-color: #990404;
   display: flex;
   flex-direction: column;
@@ -87,18 +94,14 @@ nav marquee{
   align-items: center;
 }
 #content-body{
-  align-self: center;
-  text-align: center;
-  height: 100%;
+  height: max-content;
+  display: block;
+  grid-column: 2/3;
+  grid-row: 2/3;
   color: #1c1c1c;
   background-color: #aa1414;
   padding: 5rem;
-  overflow:hidden;
-  margin: auto;
-  width: 50%;
-}
-#content-body h1{
-  margin-left:5%;
+  overflow: hidden;
 }
 .footer-cnt h1{
   font-size: larger;
@@ -107,13 +110,10 @@ nav marquee{
 .nv-cnt #nv-img-cnt div{
   display: flex;
   flex-direction: row;
-  margin: 0% 2%;
 }
 
 #fade{
   float: right;
-  margin: 0;
-  padding: 0;
   height: 20rem;
   width: auto;
   margin-bottom: -12rem;
@@ -122,27 +122,7 @@ nav marquee{
   mask-image: linear-gradient(to left, rgba(0,0,0,1.0) 0%, transparent 100%);
 }
 
-
-#nv-btn-list{
-  display: none;
-
-}
-
-div a:hover + #nv-btn-list,
-#nv-btn-list:hover, #nv-btn-list *:hover {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-	justify-items:center;
-	justify-content: center;
-	padding: 0 5rem;
-  position:absolute;
-  background-color: #aa1414;
-  float: none;
-}
-
 #content-body{
   margin: 1rem;
-  padding: .5rem;
   font-weight: light;
 }

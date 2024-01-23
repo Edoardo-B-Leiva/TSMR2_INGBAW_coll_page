@@ -79,11 +79,23 @@ nav marquee{
   flex-direction: row;
   margin: 1rem;
 }
+
+.footer div, .footer div *{
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
 #content-body{
+  align-self: center;
+  text-align: center;
   height: 100%;
   color: #1c1c1c;
-  margin: 0 5% 5% 5%;
+  background-color: #aa1414;
+  padding: 5rem;
   overflow:hidden;
+  margin: auto;
+  width: 50%;
 }
 #content-body h1{
   margin-left:5%;
@@ -127,4 +139,10 @@ div a:hover + #nv-btn-list,
   position:absolute;
   background-color: #aa1414;
   float: none;
+}
+
+#content-body{
+  margin: 1rem;
+  padding: .5rem;
+  font-weight: light;
 }

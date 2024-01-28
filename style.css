@@ -1,9 +1,11 @@
+*{
+  min-width: 0; /* Weird CSS stuff goin'on here */
+}
+
 body{
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: auto vmax vmax;
-  width: 100%;
-  height: 100vh;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: auto auto 1fr;
   padding: 0;
   margin: 0;
   background-image: url(http://www.slackware.com/grfx/shared/background.jpg);
@@ -73,6 +75,7 @@ nav a marquee{
   bottom: 0;
 }
 .footer{
+  width: 100vw;
   grid-column: 1/4;
   grid-row: 3; 
   background-color: #990404;
@@ -101,7 +104,7 @@ nav a marquee{
   color: #1c1c1c;
   background-color: #aa1414;
   padding: 5rem;
-  overflow: hidden;
+  overflow: scroll;
 }
 .footer-cnt h1{
   font-size: larger;

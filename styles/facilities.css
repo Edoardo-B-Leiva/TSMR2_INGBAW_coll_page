@@ -10,7 +10,7 @@ body {
   color: #fafafa;
 }
 nav {
-  background-color: #aa1414;
+  background-color: #E22636;
   width: 100%;
   height: auto;
   display: flex;
@@ -32,7 +32,7 @@ ul {
   text-align: center;
 }
 .nv-btn:hover {
-  background-color: #990404;
+  background-color: #E22636;
   height: 100%;
 }
 

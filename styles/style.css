@@ -74,8 +74,7 @@ nav a marquee{
   font-weight: bold;
   bottom: 0;
 }
-.footer{
-  width: 100vw;
+.footer{overflow: hidden;
   grid-column: 1/4;
   grid-row: 3; 
   background-color: #E22636;
@@ -97,14 +96,15 @@ nav a marquee{
   align-items: center;
 }
 #content-body{
+  overflow: hidden;
   height: max-content;
   display: block;
   grid-column: 2/3;
   grid-row: 2/3;
   color: #1c1c1c;
   background-color: #E22636;
-  padding: 5rem;
-  overflow: scroll;
+  padding: 10vh;
+  overflow: hidden;
 }
 .footer-cnt h1{
   font-size: larger;

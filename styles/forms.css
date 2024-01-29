@@ -28,7 +28,8 @@ body {
     display: flex;
     align-items: center;
     padding-left: 30px;
-    color: black;
+    color: #fcb900;
+    border-bottom: 1px solid black;
   }
   
   .title::before {
@@ -50,7 +51,7 @@ body {
     width: 16px;
     border-radius: 50%;
     left: 0px;
-    background-color: black;
+    background-color: #fcb900;
   }
   .flex {
     display: flex;
@@ -111,7 +112,9 @@ body {
   }
   
   .submit:hover {
-    background-color: black;
+    background-color: #fcb900;
+    color: black;
+    font-weight: bold;
   }
   
   @keyframes pulse {

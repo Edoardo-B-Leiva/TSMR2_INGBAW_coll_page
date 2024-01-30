@@ -3,75 +3,73 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-body {
+body{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: auto auto 1fr;
   padding: 0;
   margin: 0;
   background-image: url(http://www.slackware.com/grfx/shared/background.jpg);
   color: #fafafa;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-nav {
+
+nav{
+  grid-column: 1/4;
+  grid-row: 1/2;
   background-color: #E22636;
-  width: 100%;
-  height: auto;
   display: flex;
   flex-direction: column;
 }
-ul {
-  text-decoration: none;
-  list-style-type: none;
-}
-.nv-cnt {
+nav *{overflow: hidden;}
+.nv-cnt{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: space-between;
+  height: 75%;
 }
-.nv-btn {
-  justify-content: center;
+.nv-btn{
+  display:block;
   width: 100%;
   text-align: center;
-}
-.nv-btn:hover {
-  background-color: #E22636;
-  height: 100%;
+  padding: .5rem;
 }
 
-#nv-btn-cnt {
+.nv-btn:hover{
+  background-color: #fcb900;
+}
+
+#nv-btn-cnt{
   display: flex;
   flex-direction: row;
-  border-top: 0.4rem solid #000;
-  border-bottom: 2px solid #000;
-  height: 50px;
-  align-items: center;
-  font-size: 25px;
+  justify-content: space-evenly;
+  border: 0.1rem solid #000;
 }
-#nv-img-cnt {
+
+#nv-img-cnt{
   display: flex;
   width: 100%;
+  padding-left: 2rem;
   justify-content: space-between;
 }
-a {
-  text-decoration: none;
-  color: #fafafa;
-}
-a:hover {
-  cursor: hand;
-}
 
-#hidden-ul {
-  display: none;
-}
-ul li a:hover + #hidden-ul, #hidden-ul:hover {
+#nv-img-cnt div{
   display: block;
-  border: 3px solid black;
-  background-color: #990404;
-  float: none;
+  align-items: center;
+  align-content: center;
 }
 
-ul li ul li {
-  padding: 5px;
+#nv-img-cnt div img{
+  display: block;
+  height: 8rem;
 }
 
-ul li ul li a:hover {
-  color: black;
+a{
+  text-decoration: none;
+  color: #fafafa
+}
+
+h1{
+  color: white;
+  text-decoration: underline;
 }

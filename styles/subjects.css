@@ -1,16 +1,30 @@
 #content-body-subjects-1tsmr {
-    border-style: double;
+    border: 2px solid #fcb900;
     background-color: #E22636;
     margin-top: 25px;
-    height: 250px;
+    height: auto;
     margin-bottom: 25px;
+    width: auto;
 }
 
-#title-subjects {
+#content-body-subjects-2tsmr {
+    border-style: double 4px #fcb900;
+    background-color: #E22636;
+    margin-top: 25px;
+    width: auto;
+}
+
+.content-subjects {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.title-subjects {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     color: #fafafa;
     margin-top: 25px;
     text-decoration: underline;
+    font-weight: bold;
 }

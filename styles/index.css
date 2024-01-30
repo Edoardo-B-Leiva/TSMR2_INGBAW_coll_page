@@ -27,3 +27,18 @@
     padding-left: 5%;
     padding-right: 5%;
 }
+#florida-foto{
+    display: flex;
+    margin: 50px;
+    margin-left: 0;
+    flex-wrap: wrap;
+}
+#sobre-nosotros-dos{
+    display: flex;
+    margin: 100px;
+    color: black;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: 0   ;
+}
+

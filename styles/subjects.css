@@ -1,0 +1,16 @@
+#content-body-subjects-1tsmr {
+    border-style: double;
+    background-color: #E22636;
+    margin-top: 25px;
+    height: 250px;
+    margin-bottom: 25px;
+}
+
+#title-subjects {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fafafa;
+    margin-top: 25px;
+    text-decoration: underline;
+}

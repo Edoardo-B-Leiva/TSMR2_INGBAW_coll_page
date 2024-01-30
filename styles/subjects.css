@@ -1,16 +1,9 @@
-#content-body-subjects-1tsmr {
+.content-body-subjects {
     border: 2px solid #fcb900;
     background-color: #E22636;
     margin-top: 25px;
     height: auto;
     margin-bottom: 25px;
-    width: auto;
-}
-
-#content-body-subjects-2tsmr {
-    border-style: double 4px #fcb900;
-    background-color: #E22636;
-    margin-top: 25px;
     width: auto;
 }
 

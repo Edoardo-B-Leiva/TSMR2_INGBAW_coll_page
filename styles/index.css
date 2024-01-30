@@ -1,0 +1,29 @@
+#content-body{
+    height: max-content;
+    display: block;
+    display: grid;
+    grid-column: 1/5;
+    margin-left: 0;
+    margin-right: 0;
+    color: #1c1c1c;
+    padding-bottom: 10vh;
+    height: auto;
+    box-sizing: border-box;
+    padding: 200px;
+  }
+
+#titulo-sobre-nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+#sobre-nosotros {
+    display: flex;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}

@@ -9,7 +9,7 @@ body{
   padding: 0;
   margin: 0;
   background-image: url(https://static.vecteezy.com/system/resources/previews/002/534/933/non_2x/light-blue-gradient-blur-backdrop-vector.jpg);
-  background-size: 20000px;
+  background-size: cover;
   color: #fafafa;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -98,19 +98,7 @@ nav a marquee{
   justify-items: center;
   align-items: center;
 }
-#content-body{
-  padding-top: 300px;
-  height: max-content;
-  display: block;
-  display: grid;
-  grid-column: 1/5;
-  margin-left: 0;
-  margin-right: 0; /* Asegura que no hay margen a la derecha */
-  color: #1c1c1c;
-  padding-bottom: 10vh;
-  height: auto;
-  box-sizing: border-box;
-}
+
 .footer-cnt h1{
   font-size: larger;
 }

@@ -11,6 +11,7 @@ body{
   background-image: url(https://static.vecteezy.com/system/resources/previews/002/534/933/non_2x/light-blue-gradient-blur-backdrop-vector.jpg);
   background-size: cover;
   color: #fafafa;
+  font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -21,19 +22,20 @@ nav{
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin: 0;
 }
 nav *{overflow: hidden;}
 .nv-cnt{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height:70%;
+  height: 70%;
 }
 .nv-btn{
   display: block;
   width: 100%;
   text-align: center;
-  padding: .5rem;
+  padding: .8rem;
 }
 
 .nv-btn:hover{
@@ -86,6 +88,7 @@ nav a marquee{
   align-items: center;
 }
 .footer-cnt{
+  grid-row: 3/4;
   display: flex;
   flex-direction: row;
   margin: 1rem;

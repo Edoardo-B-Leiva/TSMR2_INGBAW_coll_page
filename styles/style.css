@@ -28,10 +28,10 @@ nav *{overflow: hidden;}
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 75%;
+  height: 40%;
 }
 .nv-btn{
-  display:block;
+  display: block;
   width: 100%;
   text-align: center;
   padding: .5rem;
@@ -63,7 +63,7 @@ nav *{overflow: hidden;}
 
 #nv-img-cnt div img{
   display: block;
-  height: 8rem;
+  height: 6rem;
 }
 
 a{

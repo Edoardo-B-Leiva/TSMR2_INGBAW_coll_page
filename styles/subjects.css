@@ -1,6 +1,7 @@
 body {
     height: 100%;
     margin: 0;
+    
 }
 #content-body {
     display: grid;
@@ -33,7 +34,7 @@ body {
     grid-column: 1/5;
     margin:0% 0% 0% 0%;
     height: auto;
-  }
+}
 .subject-container{
     display: flex;
     width: 100%;
@@ -42,7 +43,6 @@ body {
     margin-top:0;
     flex-wrap: wrap;
     color: black;
-    background-color: purple;
     flex-direction: column;
     
 }
@@ -63,7 +63,7 @@ body {
     width: fit-content;
     border: 2px solid #E22636;
     border-radius: 10px;
-    padding: 3px 6px 3px 6px;
+    padding: 3px 2px 3px 2px;
     font-size: 3vh;
     letter-spacing: 2px;
     
@@ -80,8 +80,13 @@ body {
     letter-spacing: 2px;
     
 }
+
+.text{
+    padding: 10px;
+}
 h1{
     font-size: 6vh;
+    justify-content: center;
 }
 .subject-courses{
     display: flex;
@@ -99,10 +104,13 @@ h1{
 .subjects-first{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     background-color: #fcb900;
     font-size: 4vh;
-    width: 100%
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
 }
 .subjects-second{
 
@@ -110,9 +118,11 @@ h1{
     flex-direction: column;
     background-color: #262524;
     font-size: 4vh;
-    width:100%;
+    width:50%;
     color: white;
     flex-wrap: nowrap;
+    align-items: center;
+    text-decoration: none;
 }
 .first{
     display: flex;
@@ -121,3 +131,15 @@ h1{
     width: 50%;
 
 }
+.subject-courses-info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+}
+a:hover{
+    cursor: pointer;
+    color: #E22636;
+}
+

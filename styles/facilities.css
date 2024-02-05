@@ -1,75 +1,208 @@
-* {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-body{
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: auto auto 1fr;
-  padding: 0;
+body {
   margin: 0;
-  background-image: url(http://www.slackware.com/grfx/shared/background.jpg);
-  color: #fafafa;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-nav{
-  grid-column: 1/4;
-  grid-row: 1/2;
-  background-color: #E22636;
+#content-body {
   display: flex;
-  flex-direction: column;
-}
-nav *{overflow: hidden;}
-.nv-cnt{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 75%;
-}
-.nv-btn{
-  display:block;
-  width: 100%;
-  text-align: center;
-  padding: .5rem;
-}
-
-.nv-btn:hover{
-  background-color: #fcb900;
-}
-
-#nv-btn-cnt{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  border: 0.1rem solid #000;
-}
-
-#nv-img-cnt{
-  display: flex;
-  width: 100%;
-  padding-left: 2rem;
-  justify-content: space-between;
-}
-
-#nv-img-cnt div{
-  display: block;
+  justify-content: center;
   align-items: center;
-  align-content: center;
+  grid-column: 1/5;
+  grid-row: 2/3;
+  color: #1c1c1c;
+  flex-wrap: wrap;
+  height: auto;
 }
 
-#nv-img-cnt div img{
-  display: block;
-  height: 8rem;
+#tit-fac {
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
 }
 
-a{
+#div-content-body-uno {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0% 3% 0% 3%;
+    padding: 1%;
+    flex-wrap: wrap;
+    font-size: 1em;
+}
+
+#div-content-body-uno ul {
+  display: inline;
+}
+
+#div-content-body-uno ul li a {
   text-decoration: none;
-  color: #fafafa
+  color: black;
 }
 
-h1{
-  color: white;
+#div-content-body-uno ul li a:hover {
   text-decoration: underline;
+  color: #E22636;
+}
+
+#cont-lib {
+    color: white;
+    background-color: #E22636;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 90%;
+    margin: 2% 3% 2% 3%;
+    padding: 1%;
+    flex-wrap: wrap;
+    font-size: 1em;
+}
+
+#tit-lib {
+  display: flex;
+  font-size: 30px;
+}
+
+#img-lib {
+  display: flex;
+  height: 250px;
+  width: 450px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+#cont-can {
+    color: white;
+    background-color: #fcb900;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 90%;
+    margin: 2% 3% 2% 3%;
+    padding: 1%;
+    flex-wrap: wrap;
+    font-size: 1em;
+}
+
+#tit-can {
+  display: flex;
+  font-size: 30px;
+}
+
+#tit-can a {
+  text-decoration: none;
+  color: white;
+}
+
+#img-can {
+  display: flex;
+  height: 250px;
+  width: 450px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+#cont-bui {
+    color: white;
+    background-color: #fcb900;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 90%;
+    margin: 2% 3% 2% 3%;
+    padding: 1%;
+    flex-wrap: wrap;
+    font-size: 1em;
+}
+
+#tit-bui a {
+  text-decoration: none;
+  color: white;
+}
+
+#tit-bui {
+  font-size: 30px;
+}
+
+#img-bui {
+  display: flex;
+  height: 250px;
+  width: 450px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+#cont-pav {
+    background-color: #E22636;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 90%;
+    margin: 2% 3% 2% 3%;
+    padding: 1%;
+    flex-wrap: wrap;
+    font-size: 1em;
+}
+
+#tit-pav a {
+  text-decoration: none;
+  color: white;
+}
+
+#tit-pav {
+  font-size: 30px;
+
+}
+
+#img-pav {
+  display: flex;
+  height: 250px;
+  width: 450px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+#cont-but {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  margin: 3% 0% 3% 0%;
+}
+
+button {
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  background: none;
+  font-size: 25px;
+  border: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+button::before {
+  margin-left: auto;
+}
+
+button::after, button::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #fcb900;
+  display: block;
+  transition: 0.5s;
+}
+
+button:hover::after, button:hover::before {
+  width: 100%;
 }

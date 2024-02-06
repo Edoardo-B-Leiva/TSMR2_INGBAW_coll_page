@@ -1,0 +1,18 @@
+#content-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    color: #1c1c1c;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#tit-edu {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline 2px solid #E22636;
+}

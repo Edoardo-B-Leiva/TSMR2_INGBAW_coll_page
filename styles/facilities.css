@@ -52,7 +52,7 @@ body {
     background-color: #E22636;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    border: 4px double #fcb900;
     border-radius: 10px;
     width: 90%;
     margin: 2% 3% 2% 3%;
@@ -79,7 +79,7 @@ body {
     background-color: #fcb900;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    border: 4px double #E22636;
     border-radius: 10px;
     width: 90%;
     margin: 2% 3% 2% 3%;
@@ -111,7 +111,7 @@ body {
     background-color: #fcb900;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    border: 4px double #E22636;
     border-radius: 10px;
     width: 90%;
     margin: 2% 3% 2% 3%;
@@ -142,7 +142,7 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    border: 4px double #fcb900;
     border-radius: 10px;
     width: 90%;
     margin: 2% 3% 2% 3%;

@@ -1,18 +1,54 @@
 #content-body {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     grid-column: 1/5;
     grid-row: 2/3;
-    color: #1c1c1c;
     flex-wrap: wrap;
     height: auto;
 }
 
 #tit-edu {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+}
+
+#subt-edu {
+    font-size: 30px;
     display: flex;
     justify-content: center;
     color: black;
     font-weight: bold;
     text-decoration: underline 2px solid #E22636;
+}
+
+#ctn-edu-med-deg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px double #fcb900;
+    background-color: #E22636;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0% 3% 0% 3%;
+    height: auto;
+}
+
+#tit-edu-med-deg-tsmr {
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+#par-edu-med-deg-tsmr {
+    margin: 0% 1% 3% 1%;
+    padding: 2%;
+    text-align: center;
 }

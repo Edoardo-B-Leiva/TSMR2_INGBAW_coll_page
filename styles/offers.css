@@ -6,6 +6,7 @@
     grid-row: 2/3;
     flex-wrap: wrap;
     height: auto;
+    margin: 0;
 }
 
 #tit-edu {
@@ -34,7 +35,7 @@
     background-color: #E22636;
     border-radius: 10px;
     width: 90%;
-    margin: 0% 3% 0% 3%;
+    margin: auto;
     height: auto;
 }
 
@@ -47,8 +48,92 @@
     color: black;
 }
 
-#par-edu-med-deg-tsmr {
+.par-edu-med-deg-tsmr {
     margin: 0% 1% 3% 1%;
     padding: 2%;
     text-align: center;
+}
+
+#enl-edu-med-deg {
+    text-decoration: underline 2px solid black;
+    color: black
+}
+
+#enl-edu-med-deg:hover {
+    color: rgb(48, 47, 47);
+    text-decoration: underline 2px solid rgb(48, 47, 47);
+}
+
+#cnt-img-edu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-edu-deg {
+    width: 100px;
+    height: 80px;
+    margin-top: 2%;
+}
+
+#ctn-edu-med-deg-sal {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://www.wallpaperup.com/uploads/wallpapers/2015/09/28/811100/fba2b80b97362759233f63d137f0a45f-700.jpg');
+    background-size: cover;
+    width: 100%;
+    margin: 2% 0% 2% 0%;
+    -webkit-text-stroke: 0.60px black;
+    font-size: 25px;
+}
+
+#ctn-edu-med-deg-sal ul {
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+}
+
+#tit-med-deg-sal {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+
+#tit-sec-deg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    text-decoration: underline #E22636;
+    margin-top: 10%;
+}
+
+#ctn-info-sec-deg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px double #fcb900;
+    border-radius: 10px;
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+}
+
+#par-info-sec-deg {
+    color: black;
+    padding: 2%;
+    font-weight: bold;
+}
+
+#ctn-sec-deg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
 }

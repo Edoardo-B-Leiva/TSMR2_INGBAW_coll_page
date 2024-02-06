@@ -95,6 +95,8 @@ h1{
     background-color: #E22636;
     flex-direction: row;
     border: 3px solid black;
+    border-right: none;
+    border-left: none;
     margin-top: 35px;
     justify-content: space-evenly;
     text-align: center;
@@ -135,7 +137,7 @@ h1{
     height: auto;
     width: 100%;
 }
-a:hover{
+.enl-ctn:hover{
     cursor: pointer;
     color: #E22636;
 }

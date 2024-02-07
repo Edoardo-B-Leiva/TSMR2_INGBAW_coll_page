@@ -147,14 +147,16 @@
     justify-content: center;
     width: 100%;
     background-color: black;
-    height: 30vh;
+    height: 60vh;
+}
+
+#par-info-sec-deg-asir {
     padding: 2%;
 }
 
 #sec-deg-pro {
     display: flex;
-    margin-bottom: 3%;
-    height: 30vh;
+    height: 60vh;
 }
 
 #ctn-info-sec-deg-daw {
@@ -177,4 +179,46 @@
     justify-content: center;
     width: 50%;
     background-color: #fcb900;
+}
+
+button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    width: auto;
+    height: auto;
+    border-radius: 1rem;
+    color: black;
+    box-shadow: 0 0.4rem rgb(85, 79, 79);
+    cursor: pointer;
+    font-weight: bold;
+   }
+   
+button:active {
+    color: black;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+
+#tit-info-deg-dob {
+    margin: 3% 0% 3% 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+
+#ctn-info-deg-dob {
+    display: flex;
+    flex-direction: column;
+    border: double 4px #E22636;
+    border-radius: 20px;
+    margin: 3%;
+    color: black;
+    text-align: center;
+    padding: 2%;
+    width: 90%;
 }

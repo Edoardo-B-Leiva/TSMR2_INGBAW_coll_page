@@ -131,9 +131,50 @@
     font-weight: bold;
 }
 
-#ctn-sec-deg {
+#ctn-info-sec-deg {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    margin-top: 0;
+}
+
+#ctn-info-sec-deg-asir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    height: 30vh;
+    padding: 2%;
+}
+
+#sec-deg-pro {
+    display: flex;
+    margin-bottom: 3%;
+    height: 30vh;
+}
+
+#ctn-info-sec-deg-daw {
+    display: flex;
+    padding: 2%;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background-color: #E22636;
+}
+
+#ctn-info-sec-deg-dam {
+    display: flex;
+    padding: 2%;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background-color: #fcb900;
 }

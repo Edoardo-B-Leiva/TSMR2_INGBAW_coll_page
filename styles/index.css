@@ -107,6 +107,8 @@ body {
 }
 
 .parrafos-cuadrados {
+    align-items: center;
+    padding: 2%;
     text-align: center;
     display: flex;
     color: white;

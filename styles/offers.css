@@ -165,7 +165,6 @@
     text-align: center;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
     width: 50%;
     background-color: #E22636;
 }
@@ -176,7 +175,6 @@
     text-align: center;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
     width: 50%;
     background-color: #fcb900;
 }

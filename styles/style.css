@@ -1,0 +1,136 @@
+*{
+  min-width: 0; /* Weird CSS stuff goin'on here */
+  text-decoration: none;
+}
+
+body{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: auto auto 1fr;
+  padding: 0;
+  margin: 0;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/534/933/non_2x/light-blue-gradient-blur-backdrop-vector.jpg);
+  background-size: cover;
+  color: #fafafa;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #fafafa
+}
+nav a marquee{
+  display: block;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  bottom: 0;
+}
+
+/*Navbar classes & IDs*/
+nav{
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color: #E22636;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+nav *{overflow: hidden;}
+.nv-cnt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70%;
+}
+
+.nv-btn{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: .8rem;
+}
+.nv-btn:hover{
+  background-color: #fcb900;
+}
+
+#nv-btn-cnt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 0.1rem solid #000;
+}
+
+#nv-img-cnt{
+  display: flex;
+  width: 100%;
+  padding-left: 2rem;
+  justify-content: space-between;
+}
+#nv-img-cnt div{
+  display: block;
+  align-items: center;
+  align-content: center;
+}
+#nv-img-cnt div img{
+  display: block;
+  height: 6rem;
+}
+
+.nv-cnt #nv-img-cnt div{
+  display: flex;
+  flex-direction: row;
+}
+
+#fade{
+  float: right;
+  height: 20rem;
+  width: auto;
+  margin-bottom: -12rem;
+  margin-top: -1rem;
+  overflow: hidden;
+  mask-image: linear-gradient(to left, rgba(0,0,0,1.0) 0%, transparent 100%);
+}
+
+/*Footer classes & IDs*/
+#footer{
+  overflow: hidden;
+  grid-column: 1/4;
+  grid-row: 3; 
+  background-color: #E22636;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+#footer div, #footer div *{
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#footer-cnt{
+  grid-row: 3/4;
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+#footer-cnt h1{
+  font-size: larger;
+}
+#footer-cnt div ul li a{
+  display: block;
+}
+#footer-cnt div ul li a:hover{
+  color: #fafafa;
+}
+
+#content-body{
+  margin: 1rem;
+  font-weight: light;
+}

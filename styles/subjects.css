@@ -1,0 +1,144 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#content-body {
+    display: grid;
+    grid-column: 1/5;
+    margin: 0;
+    margin-top: 25px;
+    height: auto;
+    margin-bottom: 25px;
+    width: auto;
+}
+
+.content-subjects {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.title-subjects {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fafafa;
+    margin-top: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content-body{
+    margin: 1rem;
+    font-weight: light;
+    width: 100%;
+    grid-column: 1/5;
+    height: auto;
+    margin: 0;
+}
+
+#subject-container{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+    color: black;
+    flex-direction: column;
+    
+}
+#subject-title{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 40px;
+   
+}
+.subject-intro{
+    margin-top: 20px;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    flex-direction: column;
+    width: fit-content;
+    border: 2px solid #E22636;
+    border-radius: 10px;
+    padding: 3px 2px 3px 2px;
+    font-size: 3vh;
+    letter-spacing: 2px;
+    
+}
+.subject-intro2{
+    margin-top: 40px;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    flex-direction: column;
+    border: 2px solid #E22636;
+    border-radius: 10px;
+    padding: 3px 6px 3px 6px;
+    font-size: 3vh;
+    letter-spacing: 2px;
+    
+}
+
+.text{
+    padding: 10px;
+}
+h1{
+    font-size: 6vh;
+    justify-content: center;
+}
+.subject-courses{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    background-color: #E22636;
+    flex-direction: row;
+    border: 3px solid black;
+    border-right: none;
+    border-left: none;
+    margin-top: 35px;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+
+}
+.subjects-first{
+    display: flex;
+    flex-direction: column;
+    background-color: #fcb900;
+    font-size: 4vh;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.subjects-second{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #262524;
+    font-size: 4vh;
+    width:50%;
+    color: white;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-decoration: none;
+
+}
+.subject-courses h1{
+    margin: auto;
+}
+.subject-courses-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+}
+.enl-ctn:hover{
+    cursor: pointer;
+    color: #E22636;
+}
+
